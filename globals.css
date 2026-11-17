@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #ffffff !important; /* 强制纯白背景 */
+  color: #333333 !important; /* 字体颜色 */
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100vh !important;
+}
